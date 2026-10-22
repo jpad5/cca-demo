@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Replacement research output",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "productName": {
+            "type": "string"
+          },
+          "retailer": {
+            "type": "string"
+          },
+          "replacementUrl": {
+            "type": "string"
+          },
+          "unitPriceCAD": {
+            "type": [
+              "number",
+              "string"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "High",
+              "Medium",
+              "Low",
+              "Unknown"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "ref",
+          "replacementUrl",
+          "unitPriceCAD",
+          "confidence"
+        ]
+      }
+    }
+  },
+  "required": [
+    "items"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "ruleSetName": "Zava Demo Depreciation Rules",
+  "version": "1.0",
+  "status": "Approved",
+  "effectiveStart": "2026-01-01",
+  "currency": "CAD",
+  "disclaimer": "Illustrative values for a conference demo. Not claims, actuarial or underwriting guidance.",
+  "highValueThresholdCAD": 2500,
+  "reviewConfidence": [
+    "Low",
+    "Unknown"
+  ],
+  "allowedRetailerHosts": [
+    "bestbuy.ca",
+    "canadiantire.ca",
+    "homedepot.ca",
+    "walmart.ca",
+    "costco.ca",
+    "staples.ca",
+    "thebrick.com",
+    "leons.ca",
+    "structube.com",
+    "sleepcountry.ca",
+    "marks.com",
+    "sportchek.ca",
+    "linenchest.com",
+    "visions.ca"
+  ],
+  "categories": [
+    {
+      "category": "Electronics",
+      "annualRate": 0.2,
+      "maxRate": 0.8,
+      "specialty": false
+    },
+    {
+      "category": "Appliances",
+      "annualRate": 0.1,
+      "maxRate": 0.7,
+      "specialty": false
+    },
+    {
+      "category": "Furniture",
+      "annualRate": 0.1,
+      "maxRate": 0.7,
+      "specialty": false
+    },
+    {
+      "category": "Bedding & Textiles",
+      "annualRate": 0.15,
+      "maxRate": 0.75,
+      "specialty": false
+    },
+    {
+      "category": "Clothing & Footwear",
+      "annualRate": 0.25,
+      "maxRate": 0.8,
+      "specialty": false
+    },
+    {
+      "category": "Kitchenware",
+      "annualRate": 0.1,
+      "maxRate": 0.6,
+      "specialty": false
+    },
+    {
+      "category": "Jewelry",
+      "annualRate": 0,
+      "maxRate": 0,
+      "specialty": true
+    }
+  ]
+}

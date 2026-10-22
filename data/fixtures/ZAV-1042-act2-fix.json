@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "ref": "6",
+      "productName": "LG 43-inch 4K UHD smart TV (closest current size)",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/lg-43-4k-uhd",
+      "unitPriceCAD": 449.99,
+      "confidence": "Medium",
+      "note": "Closest current LG size; confirmed by the adjuster"
+    }
+  ]
+}

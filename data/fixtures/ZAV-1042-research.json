@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "ref": "1",
+      "productName": "Samsung 65-inch Q80-series 4K QLED TV (current model)",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/samsung-65-q80-qled",
+      "unitPriceCAD": 1599.99,
+      "confidence": "High",
+      "note": "Same series, current model year"
+    },
+    {
+      "ref": "2",
+      "productName": "3-seat fabric sofa, grey",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/sofa-3-seat-grey",
+      "unitPriceCAD": 1299.0,
+      "confidence": "Medium",
+      "note": "Like kind and quality"
+    },
+    {
+      "ref": "3",
+      "productName": "Wool area rug, 8 x 10 ft",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/wool-rug-8x10",
+      "unitPriceCAD": 549.99,
+      "confidence": "Medium",
+      "note": "Like kind and quality"
+    },
+    {
+      "ref": "4",
+      "productName": "KitchenAid Artisan 5-qt tilt-head stand mixer",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/kitchenaid-artisan-5qt",
+      "unitPriceCAD": 549.99,
+      "confidence": "High",
+      "note": "Exact model"
+    },
+    {
+      "ref": "5",
+      "productName": "Cuisinart 10-piece stainless steel cookware set",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/cuisinart-10pc-stainless",
+      "unitPriceCAD": 299.99,
+      "confidence": "Medium",
+      "note": "Same brand, current set"
+    },
+    {
+      "ref": "6",
+      "productName": "Unknown",
+      "retailer": "Unknown",
+      "replacementUrl": "Unknown",
+      "unitPriceCAD": "Unknown",
+      "confidence": "Unknown",
+      "note": "No current 47-inch LG model found"
+    },
+    {
+      "ref": "7",
+      "productName": "Sealy queen mattress, medium",
+      "retailer": "retailer.example",
+      "replacementUrl": "https://retailer.example/sealy-queen-medium",
+      "unitPriceCAD": 1199.99,
+      "confidence": "Medium",
+      "note": "Same brand, current line"
+    },
+    {
+      "ref": "8",
+      "productName": "Unknown",
+      "retailer": "Unknown",
+      "replacementUrl": "Unknown",
+      "unitPriceCAD": "Unknown",
+      "confidence": "Unknown",
+      "note": "Specialty item"
+    }
+  ]
+}

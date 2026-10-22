@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Save Replacement Selections input",
+  "type": "object",
+  "properties": {
+    "claimId": {
+      "type": "string"
+    },
+    "selections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ref": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "productName": {
+            "type": "string"
+          },
+          "replacementUrl": {
+            "type": "string"
+          },
+          "unitPriceCAD": {
+            "type": "number"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "High",
+              "Medium",
+              "Low"
+            ]
+          }
+        },
+        "required": [
+          "ref",
+          "replacementUrl",
+          "unitPriceCAD",
+          "confidence"
+        ]
+      }
+    }
+  },
+  "required": [
+    "claimId",
+    "selections"
+  ]
+}

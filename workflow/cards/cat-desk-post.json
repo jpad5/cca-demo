@@ -1,0 +1,64 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Contents valuation decision",
+      "weight": "Bolder",
+      "size": "Medium"
+    },
+    {
+      "type": "TextBlock",
+      "text": "${claimId} · ${insuredName}",
+      "wrap": true,
+      "spacing": "None",
+      "isSubtle": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Decision",
+          "value": "${decision}"
+        },
+        {
+          "title": "By",
+          "value": "${decidedBy}"
+        },
+        {
+          "title": "When",
+          "value": "${decidedAt}"
+        },
+        {
+          "title": "Items valued",
+          "value": "${itemsValued}"
+        },
+        {
+          "title": "Specialist appraisal",
+          "value": "${specialistItems}"
+        },
+        {
+          "title": "RCV",
+          "value": "CAD ${totalRcv}"
+        },
+        {
+          "title": "Depreciation",
+          "value": "CAD ${totalDep}"
+        },
+        {
+          "title": "ACV",
+          "value": "CAD ${totalAcv}"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Recorded by the CAT Contents Intake workflow · ${calcRunName}",
+      "wrap": true,
+      "size": "Small",
+      "isSubtle": true
+    }
+  ]
+}

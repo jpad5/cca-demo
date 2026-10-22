@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "ref": "1",
+      "displayName": "Samsung 65-inch 4K smart TV",
+      "brand": "Samsung",
+      "model": "QN65Q80C",
+      "quantity": 1,
+      "category": "Electronics",
+      "searchQuery": "Samsung 65 inch Q80 4K QLED TV"
+    },
+    {
+      "ref": "2",
+      "displayName": "Grey 3-seat fabric sofa",
+      "brand": null,
+      "model": null,
+      "quantity": 1,
+      "category": "Furniture",
+      "searchQuery": "3 seat fabric sofa grey"
+    },
+    {
+      "ref": "3",
+      "displayName": "Wool area rug, 8 x 10 ft",
+      "brand": null,
+      "model": null,
+      "quantity": 1,
+      "category": "Bedding & Textiles",
+      "searchQuery": "wool area rug 8x10"
+    },
+    {
+      "ref": "4",
+      "displayName": "KitchenAid Artisan 5-qt stand mixer",
+      "brand": "KitchenAid",
+      "model": "Artisan KSM150",
+      "quantity": 1,
+      "category": "Appliances",
+      "searchQuery": "KitchenAid Artisan 5 quart tilt-head stand mixer"
+    },
+    {
+      "ref": "5",
+      "displayName": "Cuisinart 10-piece stainless steel cookware set",
+      "brand": "Cuisinart",
+      "model": null,
+      "quantity": 1,
+      "category": "Kitchenware",
+      "searchQuery": "Cuisinart stainless steel cookware set 10 piece"
+    },
+    {
+      "ref": "6",
+      "displayName": "LG 47-inch TV",
+      "brand": "LG",
+      "model": null,
+      "quantity": 1,
+      "category": "Electronics",
+      "searchQuery": "LG 47 inch TV"
+    },
+    {
+      "ref": "7",
+      "displayName": "Sealy queen mattress, medium firm",
+      "brand": "Sealy",
+      "model": null,
+      "quantity": 1,
+      "category": "Bedding & Textiles",
+      "searchQuery": "Sealy queen mattress medium firm"
+    },
+    {
+      "ref": "8",
+      "displayName": "14k white gold diamond pendant necklace",
+      "brand": null,
+      "model": null,
+      "quantity": 1,
+      "category": "Jewelry",
+      "searchQuery": "14k white gold diamond pendant necklace"
+    }
+  ]
+}
